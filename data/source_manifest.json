@@ -1,0 +1,13 @@
+{
+  "project": "Commercial Vehicle Shorts Showcase",
+  "updatedAt": "2026-06-09",
+  "videoCount": 12,
+  "videoSource": "商用車短視頻_影片標題文案_hashtags_完整補齊含設計說明_新增.docx",
+  "embedPolicy": {
+    "urlFormat": "https://www.youtube.com/embed/VIDEO_ID",
+    "referrerMeta": "origin-when-cross-origin",
+    "iframeReferrerPolicy": "origin-when-cross-origin",
+    "purpose": "Reduce YouTube embedded player error 153 caused by missing HTTP Referer."
+  },
+  "disclaimer": "Prototype Simulation / Requires human review"
+}

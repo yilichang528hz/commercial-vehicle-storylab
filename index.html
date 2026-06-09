@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="origin-when-cross-origin">
+  <title>Commercial Vehicle Shorts Showcase｜商用車短影音旋轉櫥窗</title>
+  <meta name="description" content="A static GitHub Pages showcase for embedded 9:16 YouTube Shorts videos about commercial vehicle planning narratives.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="A">
+  <a class="skip-link" href="#showcase">Skip to showcase</a>
+
+  <header class="site-header" id="top">
+    <div class="identity">
+      <p class="copyright" data-i18n="copyright"></p>
+      <p class="brand" data-i18n="brand"></p>
+    </div>
+    <nav class="top-nav" aria-label="Primary navigation">
+      <a href="#motivation" data-i18n="sectionMotivation"></a>
+      <a href="#showcase" data-i18n="sectionShowcase"></a>
+      <a href="#topics" data-i18n="sectionTopics"></a>
+      <a href="#story" data-i18n="sectionStory"></a>
+      <a href="#tech" data-i18n="sectionTech"></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-panel" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="route-line route-one"></div>
+        <div class="route-line route-two"></div>
+        <div class="grid-glow"></div>
+      </div>
+      <div class="hero-copy reveal">
+        <p class="kicker" data-i18n="heroKicker"></p>
+        <h1 data-i18n="heroTitle"></h1>
+        <p class="hero-lead" data-i18n="heroLead"></p>
+        <div class="hero-actions">
+          <a class="primary-action" href="#showcase" data-i18n="enter"></a>
+        </div>
+      </div>
+      <figure class="hero-visual reveal">
+        <button class="hero-image-button" id="heroImageOpen" type="button" aria-label="Open homepage cinematic illustration fullscreen">
+          <img src="assets/images/homepage-commercial-vehicle-cinematic-hero.jpg" alt="Commercial Vehicle Stories in Motion｜商用車移動故事集 cinematic 16:9 hero illustration" loading="eager" decoding="async">
+          <span class="image-expand-hint" data-i18n="openHeroImage"></span>
+        </button>
+      </figure>
+    </section>
+
+
+    <section class="section-panel motivation-panel" id="motivation">
+      <div class="section-heading reveal">
+        <p class="kicker" data-i18n="motivationKicker"></p>
+        <h2 data-i18n="motivationTitle"></h2>
+      </div>
+      <div class="motivation-card reveal">
+        <p id="motivationText" class="motivation-text"></p>
+        <button id="motivationToggle" class="motivation-toggle" type="button" aria-expanded="false" data-i18n="showMore"></button>
+      </div>
+    </section>
+
+    <section class="section-panel showcase-panel" id="showcase">
+      <div class="section-heading reveal">
+        <p class="kicker">ROTATING WINDOW</p>
+        <h2 data-i18n="sectionShowcase"></h2>
+      </div>
+
+      <div class="showcase-layout">
+        <aside class="video-rail reveal" aria-label="Video topic buttons">
+          <div id="topicButtons" class="topic-buttons"></div>
+        </aside>
+
+        <section class="theater reveal" id="theater" aria-live="polite">
+          <div class="theater-toolbar">
+            <button class="icon-btn" id="prevBtn" type="button" data-i18n-aria="prev" data-i18n="prev"></button>
+            <button class="icon-btn" id="nextBtn" type="button" data-i18n-aria="next" data-i18n="next"></button>
+            <button class="icon-btn" id="volumeBtn" type="button" data-i18n-aria="volume"><span data-i18n="muted"></span></button>
+            <button class="icon-btn" id="fullscreenBtn" type="button" data-i18n-aria="fullscreen" data-i18n="fullscreen"></button>
+            <button class="icon-btn" id="restoreBtn" type="button" data-i18n-aria="restore" data-i18n="restore"></button>
+          </div>
+
+          <div class="video-shell">
+            <div class="phone-frame">
+              <div id="playerMount" class="player-mount"></div>
+            </div>
+            <div class="showcase-reflection" aria-hidden="true"></div>
+          </div>
+
+        </section>
+
+        <aside class="video-copy reveal">
+          <div class="meta-row">
+            <span id="videoSerial" class="serial"></span>
+            <span id="videoGroup" class="chip"></span>
+          </div>
+          <h3 id="videoTitle"></h3>
+          <p id="videoTagline" class="tagline"></p>
+          <div class="detail-block rationale-block">
+            <h4 data-i18n="reasonHeading"></h4>
+            <p id="videoReason" class="reason"></p>
+          </div>
+          <div class="detail-block">
+            <h4 data-i18n="titleHeading"></h4>
+            <p id="videoUploadTitle" class="upload-title"></p>
+          </div>
+          <div class="detail-block">
+            <h4 data-i18n="captionHeading"></h4>
+            <p id="videoCaption" class="caption"></p>
+          </div>
+          <div class="detail-block hashtag-block">
+            <h4 data-i18n="hashtagsHeading"></h4>
+            <p id="videoHashtags" class="hashtags"></p>
+          </div>
+          <div class="copy-actions">
+            <button id="copyTitleBtn" type="button" data-i18n="copyTitle"></button>
+            <button id="copyCaptionBtn" type="button" data-i18n="copyCaption"></button>
+            <button id="copyTagsBtn" type="button" data-i18n="copyTags"></button>
+            <a id="openYoutubeLink" class="secondary-action small-action" href="#" target="_blank" rel="noopener" data-i18n="openYoutube"></a>
+          </div>
+        </aside>
+      </div>
+
+      <div class="carousel-stage reveal" id="carouselStage" aria-label="Rotating video cards"></div>
+    </section>
+
+    <section class="section-panel" id="topics">
+      <div class="section-heading reveal">
+        <p class="kicker">DIRECT ACCESS</p>
+        <h2 data-i18n="sectionTopics"></h2>
+      </div>
+      <div class="topic-grid" id="topicGrid"></div>
+    </section>
+
+    <section class="section-panel text-grid" id="story">
+      <div class="narrative-card reveal">
+        <p class="kicker">NARRATIVE SYSTEM</p>
+        <h2 data-i18n="storyTitle"></h2>
+        <p data-i18n="storyText"></p>
+      </div>
+      <div class="narrative-card reveal">
+        <p class="kicker">GLOSSARY</p>
+        <h2 data-i18n="glossary"></h2>
+        <div id="glossaryButtons" class="glossary-buttons"></div>
+      </div>
+    </section>
+
+    <section class="section-panel text-grid" id="tech">
+      <div class="narrative-card reveal">
+        <p class="kicker">STATIC INTERACTION</p>
+        <h2 data-i18n="techTitle"></h2>
+        <p data-i18n="techText"></p>
+      </div>
+      <div class="spec-grid reveal">
+        <div><strong>9:16</strong><span>YouTube Shorts frame</span></div>
+        <div><strong>Vanilla JS</strong><span>No backend or API key</span></div>
+        <div><strong>4 Themes</strong><span>A/B/C/D visual systems</span></div>
+        <div><strong>A11Y</strong><span>Keyboard and reduced motion</span></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p data-i18n="copyright"></p>
+    <p>Prototype Simulation｜No backend｜No database｜No API key｜Requires human review</p>
+  </footer>
+
+  <div class="floating-controls" aria-label="Floating controls">
+    <div class="flyout-group">
+      <button class="float-btn" id="floatLangBtn" type="button" data-i18n="language"></button>
+      <div class="flyout-menu" id="langMenu" role="menu"></div>
+    </div>
+    <div class="flyout-group">
+      <button class="float-btn" id="floatThemeBtn" type="button" data-i18n="theme"></button>
+      <div class="flyout-menu" id="themeMenu" role="menu"></div>
+    </div>
+    <div class="flyout-group">
+      <button class="float-btn" id="floatTocBtn" type="button" data-i18n="toc"></button>
+      <div class="flyout-menu toc-menu" id="tocMenu" role="menu"></div>
+    </div>
+  </div>
+
+  <dialog id="glossaryModal" class="glossary-modal">
+    <button class="modal-close" id="modalClose" type="button" aria-label="Close">×</button>
+    <h3 id="modalTitle"></h3>
+    <p id="modalDefinition"></p>
+  </dialog>
+
+  <dialog id="heroImageDialog" class="hero-image-dialog" aria-label="Homepage illustration fullscreen preview">
+    <button class="hero-image-close" id="heroImageClose" type="button" aria-label="Close fullscreen image">×</button>
+    <img src="assets/images/homepage-commercial-vehicle-cinematic-hero.jpg" alt="Commercial Vehicle Stories in Motion｜商用車移動故事集 full screen illustration">
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
