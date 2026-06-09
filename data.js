@@ -1,14 +1,14 @@
 window.SHORTS_SHOWCASE_DATA = {
   "motivation": {
-    "zh": "本作品集以和泰汽車商用車產品企劃可面對的顧客溝通場景為起點，將短影音視為市場洞察、品牌記憶與產品價值轉譯的介面。台灣的城市配送、營建補給、旅運接駁、福祉移動與長途行車安全，常由商用車在清晨、夜間與高壓路段中維持運作；國際市場則同時面對淨零轉型、AI安全輔助、車隊成本與高齡社會需求。若品牌敘事能把工程技術、服務可靠度、駕駛健康、乘客尊嚴與企業治理放入同一條顧客旅程，影片便能協助潛在客戶理解商用車的社會與經濟價值。這套網站以 AIDTAS、STP 與品牌權益觀點組織內容，先以影像吸引注意，再透過情境文案建立信任，最後把觀看轉化為可討論的商品企劃議題、數位行銷素材與 B2B 溝通資產。其目的在於展示一種兼具資料判讀、分眾溝通、服務設計與公共責任的企劃能力，使商用車被理解為城市韌性、產業效率與照護倫理中的關鍵節點之一。",
+    "zh": "本作品集以商用車產品企劃可面對的顧客溝通場景為起點，將短影音視為市場洞察、品牌記憶與產品價值轉譯的介面。台灣的城市配送、營建補給、旅運接駁、福祉移動與長途行車安全，常由商用車在清晨、夜間與高壓路段中維持運作；國際市場則同時面對淨零轉型、AI安全輔助、車隊成本與高齡社會需求。若品牌敘事能把工程技術、服務可靠度、駕駛健康、乘客尊嚴與企業治理放入同一條顧客旅程，影片便能協助潛在客戶理解商用車的社會與經濟價值。這套網站以 AIDTAS、STP 與品牌權益觀點組織內容，先以影像吸引注意，再透過情境文案建立信任，最後把觀看轉化為可討論的商品企劃議題、數位行銷素材與 B2B 溝通資產。其目的在於展示一種兼具資料判讀、分眾溝通、服務設計與公共責任的企劃能力，使商用車被理解為城市韌性、產業效率與照護倫理中的關鍵節點之一。",
     "en": "This portfolio begins with customer-communication scenarios relevant to commercial vehicle product planning at Hotai Motor. Short videos are treated as interfaces that translate market insight, brand memory, engineering reliability, driver wellbeing, passenger dignity, fleet cost, and public value into a sequence that B2B audiences can discuss. In Taiwan, delivery, construction supply, shuttle service, welfare mobility, and long-distance safety depend on commercial vehicles across early mornings, nights, and demanding road conditions. In global markets, net-zero transition, AI-assisted safety, fleet governance, and ageing societies reshape the same questions. Using AIDTAS, STP, and customer-based brand equity perspectives, the site connects visual attention, contextual copy, trust building, and portfolio evidence into a practical communication asset.",
-    "ja": "本作品集は、和泰汽車の商用車商品企画が向き合う顧客コミュニケーションの場面を起点にしている。ショート動画を、市場洞察、ブランド記憶、技術信頼性、ドライバーの健康、乗客の尊厳、車隊コスト、公共価値を翻訳するインターフェースとして扱う。台湾では、配送、建設補給、送迎、福祉移動、長距離安全が、早朝や夜間、高負荷の道路条件の中で商用車に支えられている。国際市場では、ネットゼロ、AI支援安全、車隊ガバナンス、高齢社会が同じ課題を変化させている。本サイトは AIDTAS、STP、顧客ベースのブランド・エクイティを参照し、視覚的注意、情境文案、信頼形成、商品企画資料を結びつける。"
+    "ja": "本作品集は、商用車商品企画が向き合う顧客コミュニケーションの場面を起点にしている。ショート動画を、市場洞察、ブランド記憶、技術信頼性、ドライバーの健康、乗客の尊厳、車隊コスト、公共価値を翻訳するインターフェースとして扱う。台湾では、配送、建設補給、送迎、福祉移動、長距離安全が、早朝や夜間、高負荷の道路条件の中で商用車に支えられている。国際市場では、ネットゼロ、AI支援安全、車隊ガバナンス、高齢社会が同じ課題を変化させている。本サイトは AIDTAS、STP、顧客ベースのブランド・エクイティを参照し、視覚的注意、情境文案、信頼形成、商品企画資料を結びつける。"
   },
   "i18n": {
     "zh": {
       "langName": "中文",
       "copyright": "Copyright © 2026 張義豊(Yi-Li, Chang) All Rights Reserved.",
-      "brand": "和泰汽車商用車產品企劃短影音作品集",
+      "brand": "商用車產品企劃短影音作品集",
       "heroKicker": "PROTOTYPE SIMULATION｜9:16 YouTube Shorts Showcase",
       "heroTitle": "商用車短影音互動式作品集",
       "heroLead": "以商用車產品企劃、數位行銷與品牌溝通為核心，串聯城市物流、車隊成本、家庭安全、福祉移動、氣候責任與長途行車安全科技。",
